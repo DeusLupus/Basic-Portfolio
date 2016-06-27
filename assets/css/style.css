@@ -1,0 +1,33 @@
+html {
+	width: 960px;  background-image: url("../images/cutcube.png");
+}
+h1 {
+	background-color: #ffffff; border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+footer {
+	background-color: #666666; font-family: 'Arial', Helvetica Neue, Helvetica, sans serif;
+}
+
+.main {
+	float: left; background-color: #ffffff; border-color: #dddddd;
+	width: 650px; font-family: 'Arial', Helvetica Neue, Helvetica, sans serif;
+}
+
+.sidebar {
+	width: 270px; float: left; text-align: center;
+	background-color: #ffffff
+}
+
+#git {
+	width: 33.3%; float: left;
+}
+
+#in {
+	width: 33.3%; float: left;
+}
+
+#stack {
+	width: 33.3%; float: left;
+}
