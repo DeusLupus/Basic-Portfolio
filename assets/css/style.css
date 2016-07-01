@@ -1,13 +1,48 @@
 html {
-	width: 960px;  background-image: url("../images/cutcube.png");
+	width: 960px;  background-image: url("../images/cutcube.png");display: block;height: 100%
 }
+
+body {
+	height: 100%; display: block;
+}
+
+.wrapper {
+	width: 650px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -155px;
+}
+
 h1 {
 	background-color: #ffffff; border-color: #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: x-large; float: left;
+}
+
+nav {
+	float: right;
+}
+
+h6 {
+	font-size: large;
 }
 
 footer {
 	background-color: #666666; font-family: 'Arial', Helvetica Neue, Helvetica, sans serif;
+}
+
+img {
+	width: 30%;float: left;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
 
 .main {
