@@ -25,13 +25,17 @@ nav {
 	float: right;
 }
 
+h3 {
+	line-height: 20px;
+}
+
 h6 {
 	font-size: large;
 }
 
 footer {
 	background-color: #666666; font-family: 'Arial', Helvetica Neue, Helvetica, sans serif;
-	width: 650px;margin: 0 auto;
+	width: 650px;margin: 0 auto;text-align: center;
 }
 
 img {
@@ -46,9 +50,13 @@ img {
    clear: both;
 }
 
+.heading {
+	background-color: #ffffff;
+}
+
 .main {
 	float: left; background-color: #ffffff; border-color: #dddddd;
-	width: 650px; font-family: 'Arial', Helvetica Neue, Helvetica, sans serif;
+	width: 610px; font-family: 'Arial', Helvetica Neue, Helvetica, sans serif;
 }
 
 .sidebar {
